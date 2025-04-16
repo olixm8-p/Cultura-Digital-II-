@@ -1,0 +1,107 @@
+/* Estilo general del cuerpo */
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif; /* Fuentes más estilizadas */
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f0f4f8, #ffffff); /* Fondo suave y agradable */
+    color: #333; /* Color de texto más relajado */
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background: #1a73e8; /* Azul moderno y vibrante */
+    color: white; /* Texto en blanco para contraste */
+    padding: 30px 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para profundidad */
+    font-size: 1.2em;
+}
+
+header button {
+    background: #ffffff;
+    color: #1a73e8;
+    border: none;
+    padding: 12px 25px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px; /* Botón con bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para darle dimensión */
+}
+
+header button:hover {
+    background: #1a73e8; /* Color inverso al pasar el cursor */
+    color: white;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: bold;
+    font-size: 1.1em; /* Tamaño más adecuado */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor */
+}
+
+/* Sección */
+section {
+    padding: 25px;
+    background: #ffffff; /* Fondo blanco limpio */
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Caja con sombra suave */
+    font-size: 1em; /* Ajuste en tamaño de fuente */
+}
+
+section h2 {
+    font-size: 1.5em; /* Encabezados más visibles */
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+section ul {
+    text-align: left;
+    display: inline-block; /* Lista centrada */
+    padding: 10px;
+    margin-top: 20px;
+}
+
+section ul li {
+    margin: 5px 0;
+    font-size: 1em;
+}
+
+/* Imágenes */
+section img {
+    width: 60%;
+    margin-top: 15px;
+    border-radius: 10px; /* Bordes redondeados para imágenes */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efecto elegante */
+}
+
+/* Pie de página */
+footer {
+    background: #1a73e8; /* Azul moderno */
+    color: white;
+    padding: 15px;
+    font-size: 0.9em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
